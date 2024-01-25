@@ -38,6 +38,8 @@ func identicalLetters(word1: String, word2: String) -> Bool {
 //print(identicalLetters(word1: "tests", word2: "estt"))
 
 import Cocoa
+// If a funciton in swift is only 1 line of code, so long as it returns
+// the correct value type it will return automatically
 func pythag(a: Double, b: Double) -> Double {
     sqrt(a * a + b * b)
 }

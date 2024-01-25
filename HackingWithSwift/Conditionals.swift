@@ -90,3 +90,27 @@ if travelledBy == .bus {
 } else if travelledBy == .train {
     print("Travelling by train")
 }
+
+
+// Ternary conditionals
+
+// score = 80
+//           condition     if true  : if false
+let passed = score >= 70 ? "Passed" : "Failed"
+print(passed)
+
+let time = 18
+
+print(time < 12 ? "It's before noon" : "It's after noon")
+
+print(numbers.isEmpty ? "No numbers in the array" : numbers)
+
+// Real world potential example
+
+enum theme {
+    case light, dark
+}
+
+let systemTheme = theme.dark
+let background = systemTheme == .dark ? "black" : "white"
+print(background)
